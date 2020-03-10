@@ -1,3 +1,5 @@
+// login.html efeitos da linha dos campos expandindo
+
 const input = document.querySelectorAll('.input')
 
 function focusFunction() {
@@ -16,3 +18,5 @@ input.forEach(input => {
   input.addEventListener('focus', focusFunction)
   input.addEventListener('blur', blurFunction)
 })
+
+// fim do código do efeito para o login.html
