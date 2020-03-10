@@ -16,11 +16,11 @@ body {
   left: 0;
   bottom: 0;
   z-index: -1;
-  fill: #485ED2;
+  fill: #F50001;
 }
 
 .wave path {
-  fill: #485ED2;
+  fill: #F50001;
 }
 
 .container {
@@ -77,7 +77,7 @@ form h2 {
   bottom: -2px;
   width: 0;
   height: 2px;
-  background-color: #485ED2;
+  background-color: #F50001;
   transition: .3s;
 }
 
@@ -90,7 +90,7 @@ form h2 {
 }
 
 .input-div.focus .i i {
-  color: #485ED2;
+  color: #F50001;
 }
 
 .input-div.focus div h5 {
@@ -163,7 +163,7 @@ a {
 }
 
 a:hover {
-  color: #485ED2
+  color: #F50001
 }
 
 .btn {
@@ -175,7 +175,7 @@ a:hover {
   font-size: 1.2rem;
   outline: none;
   border: none;
-  background-image: linear-gradient(to right, rgb(89, 117, 255), #485ED2, rgb(89, 117, 255));
+  background-image: linear-gradient(to right, rgb(253, 91, 91), rgb(245, 0, 1), rgb(255, 117, 117));
   cursor: pointer;
   color: #fff;
   font-weight: bold;
@@ -187,6 +187,12 @@ a:hover {
 
 .btn:hover {
   background-position: right;
+}
+
+.forgotten-pass {
+  margin-top: 1.5em;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1050px) {
