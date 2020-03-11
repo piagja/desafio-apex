@@ -3,6 +3,8 @@
 
 `Trilha Apex Brasil - Time 24`
 
+Visite: `http://desafio-apex.000webhostapp.com/` para ver o website
+
 ### ToDo List Devs
 
 - [x] Construir tela Principal
