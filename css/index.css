@@ -27,9 +27,9 @@ p {
 }
 
 img {
-  width: 100px;
-  height: 100px;
-  font-size: 100px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 section {
@@ -88,16 +88,17 @@ nav {
   width: 25rem;
   height: 100vh;
   background-color: #d7d4ed;
-  opacity: .8;
+  font-weight: bolder;
+  opacity: .75;
   position: fixed;
   top: 0;
   right: -26rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   z-index: 1500;
-  transition: all 600 ease-in-out;
+  transition: all 600ms ease-in-out;
 }
 
 /* criando o deslizamento do menu e colocando a classe dinamicamente via
@@ -199,13 +200,27 @@ nav {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.span-desc {
+  font-size: 2rem;
+}
+
+.title-heading {
+  margin-top: -1.75rem;
+  margin-bottom: 1.25rem;
+}
+
 .title-heading h3 {
   font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
 }
 
 .title-heading h1 {
   font-size: 2rem;
   margin: .5rem 0 1rem;
+  display: flex;
+  margin-bottom: -1.25em;
+  justify-content: center;
 }
 
 .title-heading p {
@@ -263,6 +278,8 @@ nav {
   text-transform: uppercase;
   margin: 2rem 0;
 }
+
+/* fim dos estilos pro main */
 
 /* estilos da section depoimentos */
 
@@ -323,11 +340,18 @@ nav {
 
 /* area de exportação, comece a exportar */
 
+.comeca-exportar {
+  line-height: 2.1em;
+  white-space: pre-line;
+}
+
 .comeca-exportar-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 2.5rem;
   margin-bottom: 2rem;
+  box-shadow: 10px 5px 20px gray;
+  padding: 10px;
 }
 
 .comeca-exportar-grid-item p {
