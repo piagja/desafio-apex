@@ -2,8 +2,7 @@
 ## BRASA Hackathon
 
 `Trilha Apex Brasil - Time 24`
-
-Visite: [Desafio-Apex](`http://desafio-apex.000webhostapp.com/`) para ver o website
+Visite aqui: [Desafio-Apex](http://desafio-apex.000webhostapp.com/)
 
 ### ToDo List Devs
 
