@@ -3,9 +3,11 @@
 
 `Trilha Apex Brasil - Time 24`
 
-- [ ] Construir tela Principal
-- [ ] Construir Navbar
+### ToDo List Devs
+
+- [x] Construir tela Principal
+- [x] Construir Navbar
 - [x] Construir tela de Login
-- [ ] Estilização
-- [ ] Linkar as Páginas
+- [x] Estilização (Parcial)
+- [x] Linkar as Páginas (Parcial)
 - [ ] Tweaks Finais
