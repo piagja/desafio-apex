@@ -3,7 +3,7 @@
 
 `Trilha Apex Brasil - Time 24`
 
-Visite: `http://desafio-apex.000webhostapp.com/` para ver o website
+Visite: [Desafio-Apex](`http://desafio-apex.000webhostapp.com/`) para ver o website
 
 ### ToDo List Devs
 
