@@ -349,9 +349,13 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 2.5rem;
   margin-bottom: 2rem;
-  box-shadow: 4px 4px 5px gray;
   padding: 10px;
   line-height: 2.5rem;
+}
+
+.comeca-exportar-grid-item {
+  box-shadow: 4px 4px 8px gray;
+  padding: 15px 20px;
 }
 
 .comeca-exportar-grid-item p {
