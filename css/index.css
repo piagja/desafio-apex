@@ -183,3 +183,160 @@ nav {
   margin-bottom: 10rem;
   color: rgba(0, 0, 0, 0.7);
 }
+
+.title-heading h3 {
+  font-size: 1.4rem;
+}
+
+.title-heading h1 {
+  font-size: 2rem;
+  margin: .5rem 0 1rem;
+}
+
+.title-heading p {
+  text-transform: lowercase;
+}
+
+.grid-activities {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); /* minimo de 25rem e max de 1 fração */
+  grid-gap: 2.5rem; /* criar um espaço entre as colunas e ficar mais responsivo */
+}
+
+.grid-activities-item {
+  height: 40rem;
+  padding: 5rem;
+  /* color: #fafafa; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.grid-activities-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8) 100%);
+  z-index: -1;
+}
+
+.star {
+  background: url('../assets/img/stars.jpg') center no-repeat;
+}
+
+.compass {
+  background: url('../assets/img/asteroids.jpg') center no-repeat;
+}
+
+.exporting {
+  background: url('../assets/img/exporting.jpg') center no-repeat;
+}
+
+.grid-activities-item i {
+  font-size: 4rem;
+  color: #ff2929;
+}
+
+.grid-activities-item h1 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+
+/* estilos da section depoimentos */
+
+.depoimentos {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(
+    135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8) 100%
+  ), url('../assets/img/testimonials.jpg') center no-repeat fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.depoimentos::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4.7rem;
+  background-image: url('../assets/img/wave-small-reversed.png') center no-repeat;
+  background-size: cover;
+}
+
+.depoimento {
+  width: 100%;
+  color: #fafafa;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.depoimento-text-box {
+  padding: 0 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.depoimento-text-box i {
+  position: absolute;
+  top: -8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 8rem;
+  color: #ff2929;
+  opacity: .5;
+  z-index: -1;
+}
+
+.depoimento-cliente img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  border: 3px solid #ff2929;
+}
+
+/* area de exportação, comece a exportar */
+
+.comeca-exportar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.comeca-exportar-grid-item p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+footer {
+  padding: 2.5rem 0;
+  background-color: #f3717173;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* responsividade com media-queries */
+@media screen and (min-width: 360px) {
+  .main-message {
+    transform: translateY(40%);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hero::before {
+    height: 9.4rem;
+    background: url('../assets/img/wave-medium.png');
+    background-size: cover;
+  }
+}
