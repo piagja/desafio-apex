@@ -54,6 +54,10 @@ h2 {
   font-size: 1.2em;
 }
 
+.informacao {
+  width: 30rem;
+}
+
 .informacao p {
   margin-left: 50px;
 }
