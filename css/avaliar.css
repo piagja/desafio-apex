@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inconsolata", sans-serif;
+}
+
+#cabecalho {
+  background: white;
+  height: 80px;
+  width: 1365px;
+}
+
+#titulo-principal h1 {
+  height: 40px;
+  text-align: center;
+}
+
+.logo {
+  margin-top: -180px;
+  margin-left: -80px;
+}
+
+h1 {
+  background-color: #df013a;
+  color: white;
+  padding: 8px 12px;
+  font-size: 1.2em;
+  width: 330px;
+  height: 20px;
+  margin-left: 500px;
+}
+
+.link-menu {
+  margin-left: 550px;
+  margin-top: 50px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+}
+
+h2 {
+  margin-left: 30px;
+  margin-top: 60px;
+  font-size: 2em;
+}
+
+.informacao {
+  width: 36rem;
+}
+
+.informacao h1 {
+  color: #df013a;
+  background-color: white;
+  margin-left: 40px;
+  padding-top: 30px;
+}
+
+.informacao p {
+  margin-left: 50px;
+}
+
+.informacao a {
+  margin-left: 50px;
+  font-size: 1.1em;
+  color: black;
+  text-decoration: underline red;
+}
+
+#lateral {
+  margin-top: -360px;
+}
+
+.informacao-lateral h1 {
+  color: #df013a;
+  background-color: white;
+  margin-left: 690px;
+}
+
+.informacao-lateral p {
+  margin-left: 700px;
+}
+
+.informacao-lateral a {
+  margin-left: 700px;
+  font-size: 1.1em;
+  color: black;
+  text-decoration: underline red;
+}
+
+#proximo a {
+  float: right;
+  margin-top: 0px;
+  background-color: #df013a;
+  padding: 8px 12px;
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}

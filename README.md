@@ -10,7 +10,11 @@ Visite aqui: [Desafio-Apex](http://desafio-apex.000webhostapp.com/)
 - [x] Construir tela Principal
 - [x] Construir Navbar
 - [x] Construir tela de Login
-- [ ] Construir tela de Registro
+- [x] Construir tela de Registro
 - [x] Estilização (Parcial)
 - [x] Linkar as Páginas (Parcial)
-- [ ] Tweaks Finais
+- [x] Tweaks Finais
+
+Telas Inicial e de Login feita por Gustavo.
+Telas de Registro e demais tela do ambiente do usuário, feito por Wesley.
+Tweaks, Tweaks de Estilização e Links feito por Gustavo.
