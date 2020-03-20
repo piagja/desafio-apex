@@ -17,7 +17,7 @@ Visite aqui: [Desafio-Apex](https://piagja.github.io/desafio-apex/)
 
 Telas Inicial e de Login feita por Gustavo.
 
-Telas de Registro e demais tela do ambiente do usuário, feito por Wesley.
+Telas de Registro e demais telas do ambiente do usuário, feito por Wesley.
 Tweaks, Tweaks de Estilização e Links feito por Gustavo.
 
 Como rodar?
